@@ -1,12 +1,18 @@
-import './App.css';
-import '../Component/imgupload';
+// App.js
+import React from 'react';
+import { Container } from './Layout';
+import Header from '../Component';
+import PostList from '../Component/Postlist';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      < imgupload />
-    </div>
+    <>
+      <Header />
+      <Container>
+        <PostList />
+      </Container>
+    </>
   );
-}
+};
 
 export default App;

@@ -2,11 +2,18 @@
   "name": "lab6-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": ""
   },
+  
   "keywords": [],
   "author": "",
-  "license": "ISC"
-}
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^2.8.0"
+  }  
+  }
+
+  
+
